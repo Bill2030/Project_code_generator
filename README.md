@@ -1,5 +1,5 @@
 # Project_code_generator
-Project Code Generator with Nodejs 
+Initially you need to install all the dependencies
 import express from "express"
 import inquirer from "inquirer"
 import qr from "qr-image"
@@ -10,6 +10,7 @@ const PORT = 3000
 
 inquirer
   .prompt([{
+     /* Pass your questions in here */
      message: "Type in your url",
      name: "URL"
   }  
